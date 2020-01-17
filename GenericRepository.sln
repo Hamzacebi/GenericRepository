@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstracts", "Abstracts", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Concretes", "Concretes", "{3D2639CC-E995-4375-B473-9BCC2C9D2992}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinanHamzaceBi.GenericRepository.Abstracts", "SinanHamzaceBi.GenericRepository.Abstracts\SinanHamzaceBi.GenericRepository.Abstracts.csproj", "{C9928A4B-6377-4064-AC28-61A1F9E76945}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinanHamzaceBi.GenericRepository.Abstracts", "SinanHamzaceBi.GenericRepository.Abstracts\SinanHamzaceBi.GenericRepository.Abstracts.csproj", "{C9928A4B-6377-4064-AC28-61A1F9E76945}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinanHamzaceBi.GenericRepository.Concretes", "SinanHamzaceBi.GenericRepository.Concretes\SinanHamzaceBi.GenericRepository.Concretes.csproj", "{54C1DDD2-94EF-45F5-9F14-99F1A4896A75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinanHamzaceBi.GenericRepository.Concretes", "SinanHamzaceBi.GenericRepository.Concretes\SinanHamzaceBi.GenericRepository.Concretes.csproj", "{54C1DDD2-94EF-45F5-9F14-99F1A4896A75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
