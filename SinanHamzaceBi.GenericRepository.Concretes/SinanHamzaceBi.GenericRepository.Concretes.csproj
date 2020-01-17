@@ -2,12 +2,35 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+
+    <PackageId>SinanHamzaceBi.GenericRepository.Concretes</PackageId>
+
+    <Version>1.0.0</Version>
+    <Company>HamzaceBi</Company>
+    <Authors>Sinan HAMZACEBI</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <PackageTags>Generic Repository Concretes</PackageTags>
+    <Copyright>Copyright ©2020 By Sinan HAMZACEBI </Copyright>
+
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Hamzacebi/GenericRepository</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Hamzacebi/GenericRepository</PackageProjectUrl>
+
+    <Description>Generic Repository Design Pattern icin Base Repository fonksiyonlarinin implementation edildigi ABSTRACT class'i iceren .Net Core 2.2 projesidir</Description>
+
+    <dependencies>
+      <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="2.2.6" />
+      <dependency id="SinanHamzaceBi.GenericRepository.Abstracts" version="1.0.1" />
+    </dependencies>
+
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
-    <PackageReference Include="SinanHamzaceBi.GenericRepository.Abstracts" Version="1.0.1" /> 
+    <PackageReference Include="SinanHamzaceBi.GenericRepository.Abstracts" Version="1.0.1" />
   </ItemGroup>
 
-
 </Project>
+
+ 
