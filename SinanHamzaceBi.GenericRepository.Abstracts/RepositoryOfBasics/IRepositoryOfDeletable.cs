@@ -13,7 +13,7 @@
         /// </summary>
         /// <param name="idOfTheItemToBeDeleted">Kalici olarak silinmek istenilen kayita ait ID bilgisi (Guid, int, short, string vb.)</param>
         /// <returns></returns>
-        bool DeletePermanentRecord(object idOfTheItemToBeDeleted);
+        T DeletePermanentRecord(object idOfTheItemToBeDeleted);
 
         #endregion Synchronous Function(s)
     }
