@@ -22,7 +22,7 @@ namespace SinanHamzaceBi.GenericRepository.Abstracts.RepositoryOfBasics
         /// <summary>
         /// typeof(T) tipinde olan tabloda ki kayitlari, istenilen sart / sartlara gore listelemek icin gerekli SQL sorgusunu olusturmaya yarayan fonksiyon
         /// </summary>
-        /// <param name="whereConditions">Istenilen verileri elde etmek icin gerekli sart / sartlar </param>
+        /// <param name="whereConditions">Istenilen verileri elde edecek SQL sorgusu icin gerekli sart / sartlar </param>
         /// <returns></returns>
         IQueryable<T> FetchAllRecords(Expression<Func<T, bool>> whereConditions);
 
