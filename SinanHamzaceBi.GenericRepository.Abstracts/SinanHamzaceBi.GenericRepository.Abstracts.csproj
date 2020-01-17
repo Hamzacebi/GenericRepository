@@ -1,7 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+
+    <PackageId>SinanHamzaceBi.GenericRepository.Abstracts</PackageId>
+
+    <Version>1.0.1</Version>
+    <Company>HamzaceBi</Company>
+    <Authors>Sinan HAMZACEBI</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <PackageTags>Generic Repository Abstracts</PackageTags>
+
+    <Copyright>Copyright ©2020 By Sinan HAMZACEBI </Copyright>
+
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Hamzacebi/GenericRepository</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Hamzacebi/GenericRepository</PackageProjectUrl>
+
+    <Description>Generic Repository Design Pattern icin Base Repository fonksiyonlarinin oldugu Interfaceleri iceren .Net Core 2.2 projesidir</Description>
+
   </PropertyGroup>
 
 </Project>
+
